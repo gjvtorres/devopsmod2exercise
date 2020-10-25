@@ -1,3 +1,4 @@
 ESXiHostName,DatastoreName,PortGroupName,VRAGroupName,MemoryInGB,DefaultGateway,SubnetMask,VRAIPAddress
-Host1,datastore1,live network,,4,192.168.111.254,255.255.255.0,192.168.1.25
 Host2,datastore2,test network,,8,192.168.222.254,255.255.255.0,192.168.222.25
+Host1,datastore1,live network,,4,192.168.111.254,255.255.255.0,192.168.111.25
+Host3,datastore3,live network,,4,192.168.111.254,255.255.255.0,192.168.111.26
