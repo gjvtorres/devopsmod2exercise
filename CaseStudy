@@ -1,0 +1,27 @@
+You work as a Devops Architect in Zendriix Softwares. The company has been struggling to
+manage their product releases. The releases should happen on 25th of every month. Suggest a
+Git Workflow Architecture for this requirement.
+
+Simulate this workflow, by creating a pseudo code files and branches, and upload the same to
+your GitHub Account.
+As a part of solution, share the link to your GitHub repository.
+
+Solution:
+
+1. Create master branch with original code files.
+2. each developer will create a branch to be able to make their changes.
+3. Each developer will commit and push their changes to their branch in the repository.
+4. Merge reqeusts will be taken care of by another individual - maybe the team lead.
+5. In the case of a merge conflict, the conflict will be resolved by the team lead via the user interface on GitHub.
+
+(wasn't able to get the mergetool working on my lab)
+
+Error: 
+
+gene@ubuntu:~/Documents/githandson$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+tortoisemerge emerge vimdiff
+No known merge tool is available.
